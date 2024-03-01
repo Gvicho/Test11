@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/idEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/id"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/accountNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/account_number"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/MobileNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mobile_number"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/validateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/validate"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
